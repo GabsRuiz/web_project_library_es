@@ -233,12 +233,12 @@
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
-  max-width: 780 px;
+  max-width: 780px;
   position: relative;
 }
 
 .events__image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .person {
@@ -290,9 +290,8 @@
 }
 
 .person__caption {
-  position: absolute;
-  top: -30px;
   text-align: center;
+  top: -30px;
   font-size: 14px;
   margin: 0;
 }
