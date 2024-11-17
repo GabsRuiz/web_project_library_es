@@ -250,7 +250,7 @@
 }
 
 .person_name_feynman {
-  top: 0;
+  top: -30px;
   left: 319px;
 }
 .person_name_burbidge {
@@ -291,7 +291,6 @@
 
 .person__caption {
   text-align: center;
-  top: -30px;
   font-size: 14px;
   margin: 0;
 }
