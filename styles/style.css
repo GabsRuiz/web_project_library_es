@@ -180,9 +180,9 @@
 }
 .events__content {
   flex-basis: 760px;
-  border-color: red;
+  /*border-color: red;
   border-style: dashed;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
 }
 
 .events__heading {
@@ -244,6 +244,7 @@
   align-items: center;
   justify-content: start;
   flex-direction: column;
+  position: relative;
 }
 
 .events__image {
@@ -251,15 +252,18 @@
 }
 
 .person {
-  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
 }
+.person__caption {
+}
 
 .person_name_feynman {
+  position: absolute;
   top: 0;
+  left: 319px;
 }
 */ .person_name_burbidge {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
