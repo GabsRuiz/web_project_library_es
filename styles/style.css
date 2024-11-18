@@ -348,11 +348,12 @@
 }
 
 .footer {
-  background-color: #1f1f1f;
   padding: 60px 80px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
 }
 .footer__columns {
   width: 100%;
@@ -377,7 +378,6 @@
 }
 
 .footer__column-heading {
-  color: white;
   margin: 0 auto 20px;
 }
 
@@ -385,7 +385,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: #ffffff;
 }
 
 .footer__list-item {
@@ -395,7 +394,6 @@
 .footer__column-link {
   display: flex;
   flex-direction: row;
-  color: white;
   text-decoration: none;
   column-gap: 10px;
   align-items: center;
@@ -409,10 +407,10 @@
 }
 .footer__social-text {
   margin: 0;
+  color: #fff;
 }
 
 .footer__copyright {
-  color: white;
   text-decoration: none;
   margin-top: 100px;
 }
