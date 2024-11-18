@@ -334,7 +334,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .step__icon {
@@ -347,7 +348,7 @@
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 60px 80px;
   display: flex;
   flex-direction: column;
@@ -396,6 +397,8 @@
   flex-direction: row;
   color: white;
   text-decoration: none;
+  column-gap: 10px;
+  align-items: center;
   margin: 0;
 }
 
@@ -403,7 +406,6 @@
   width: 16px;
   height: 16px;
   margin: 0;
-  margin-right: 10px;
 }
 .footer__social-text {
   margin: 0;
@@ -412,4 +414,5 @@
 .footer__copyright {
   color: white;
   text-decoration: none;
+  margin-top: 100px;
 }
