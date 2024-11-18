@@ -392,6 +392,8 @@
 }
 
 .footer__column-link {
+  display: flex;
+  flex-direction: row;
   color: white;
   text-decoration: none;
   margin: 0;
@@ -400,7 +402,11 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin: 0;
   margin-right: 10px;
+}
+.footer__social-text {
+  margin: 0;
 }
 
 .footer__copyright {
